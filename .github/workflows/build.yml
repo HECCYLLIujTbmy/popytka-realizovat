@@ -31,3 +31,4 @@ jobs:
       with:
         name: result-artifact
         path: output/result.tar.gz
+        if-no-files-found: error
